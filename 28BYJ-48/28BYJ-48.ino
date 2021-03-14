@@ -12,14 +12,14 @@ pinMode(STEPPER_PIN_4, OUTPUT);
 
 }
 
+
 void loop() {
- 
+  // False and True are 0 and 1 this this controls the direction of motion for he unit
   OneStep(false);
   delay(2);
   
 
 }
-
 
 void OneStep(bool dir){
     if(dir){
